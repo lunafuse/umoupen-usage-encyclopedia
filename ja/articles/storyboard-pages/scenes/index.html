@@ -70,86 +70,16 @@
 		})();
 	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-b5gddk54"><div class="social-icons astro-b5gddk54"></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-r2p65idu"><span class="sr-only astro-r2p65idu">テーマの選択</span><svg aria-hidden="true" class="icon label-icon astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-r2p65idu"><option value="dark" class="astro-r2p65idu">ダーク</option><option value="light" class="astro-r2p65idu">ライト</option><option value="auto" selected class="astro-r2p65idu">自動</option></select><svg aria-hidden="true" class="icon caret astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
 	StarlightThemeProvider.updatePickers();
-</script><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-r2p65idu"><span class="sr-only astro-r2p65idu">言語の選択</span><svg aria-hidden="true" class="icon label-icon astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-r2p65idu"><option value="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/scenes/" selected class="astro-r2p65idu">日本語</option><option value="/umoupen-usage-encyclopedia/en/articles/storyboard-pages/scenes/" class="astro-r2p65idu">English</option></select><svg aria-hidden="true" class="icon caret astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></div></nav><div class="main-frame astro-gqpr5s5a"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-abfeecmu"><aside class="right-sidebar-container print:hidden astro-abfeecmu"><div class="right-sidebar astro-abfeecmu"><div class="lg:sl-hidden astro-q5mffni3"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-5ulgm6bh"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-5ulgm6bh"><details id="starlight__mobile-toc" class="astro-5ulgm6bh"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-5ulgm6bh"><span class="toggle sl-flex astro-5ulgm6bh">目次<svg aria-hidden="true" class="caret astro-5ulgm6bh astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-5ulgm6bh"></span></summary><div class="dropdown astro-5ulgm6bh"><ul class="isMobile astro-cxyftcne" style="--depth: 0;"><li style="--depth: 0;" class="astro-cxyftcne"><a href="#_top" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">概要</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#基本の使い方" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">基本の使い方</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#主な項目" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">主な項目</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#用語の切り替え" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">用語の切り替え</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#番号付け" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">番号付け</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#隣り合うカットの照合" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">隣り合うカットの照合</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#見つからない動かないとき" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">見つからない・動かないとき</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#補足" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">補足</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#関連記事" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">関連記事</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#確認情報" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">確認情報</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/umoupen-usage-encyclopedia/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.BcSo_yiZ.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-q5mffni3"><div class="sl-container astro-q5mffni3"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">目次</h2><ul class="astro-cxyftcne" style="--depth: 0;"><li style="--depth: 0;" class="astro-cxyftcne"><a href="#_top" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">概要</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#基本の使い方" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">基本の使い方</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#主な項目" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">主な項目</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#用語の切り替え" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">用語の切り替え</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#番号付け" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">番号付け</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#隣り合うカットの照合" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">隣り合うカットの照合</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#見つからない動かないとき" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">見つからない・動かないとき</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#補足" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">補足</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#関連記事" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">関連記事</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#確認情報" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">確認情報</span></a></li></ul></nav></starlight-toc><script type="module" src="/umoupen-usage-encyclopedia/_astro/TableOfContents.astro_astro_type_script_index_0_lang.Csloo1VZ.js"></script></div></div></div></aside><div class="main-pane astro-abfeecmu"><main data-pagefind-body class="astro-vdxcvpsm" lang="ja" dir="ltr"><div class="content-panel astro-oil7k7jf"><div class="sl-container astro-oil7k7jf"><nav class="page-breadcrumb" aria-label="現在位置"><a href="/umoupen-usage-encyclopedia/ja/">事典ホーム</a><span aria-hidden="true">/</span><span>絵コンテ・ページ・ブック</span></nav><h1 id="_top" data-pagefind-weight="10">シーンでカットをまとめる</h1></div></div><div class="content-panel astro-oil7k7jf"><div class="sl-container astro-oil7k7jf"><div class="sl-markdown-content"><blockquote class="article-version" data-pagefind-ignore="all">
+</script><starlight-lang-select><label style="--sl-select-width: 7em" class="astro-r2p65idu"><span class="sr-only astro-r2p65idu">言語の選択</span><svg aria-hidden="true" class="icon label-icon astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg><select autocomplete="off" class="astro-r2p65idu"><option value="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/scenes/" selected class="astro-r2p65idu">日本語</option><option value="/umoupen-usage-encyclopedia/en/articles/storyboard-pages/scenes/" class="astro-r2p65idu">English</option></select><svg aria-hidden="true" class="icon caret astro-r2p65idu astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-lang-select></div></div></div></div></nav><div class="main-frame astro-gqpr5s5a"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-abfeecmu"><aside class="right-sidebar-container print:hidden astro-abfeecmu"><div class="right-sidebar astro-abfeecmu"><div class="lg:sl-hidden astro-q5mffni3"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-5ulgm6bh"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-5ulgm6bh"><details id="starlight__mobile-toc" class="astro-5ulgm6bh"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-5ulgm6bh"><span class="toggle sl-flex astro-5ulgm6bh">目次<svg aria-hidden="true" class="caret astro-5ulgm6bh astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-5ulgm6bh"></span></summary><div class="dropdown astro-5ulgm6bh"><ul class="isMobile astro-cxyftcne" style="--depth: 0;"><li style="--depth: 0;" class="astro-cxyftcne"><a href="#_top" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">概要</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#用語で呼び名が変わる" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">用語で呼び名が変わる</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#まとめる解く" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">まとめる・解く</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#基本の使い方" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">基本の使い方</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#番号付け" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">番号付け</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#隣り合うカットの照合" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">隣り合うカットの照合</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#見つからない動かないとき" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">見つからない・動かないとき</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#補足" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">補足</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#関連記事" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">関連記事</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#確認情報" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">確認情報</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/umoupen-usage-encyclopedia/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.BcSo_yiZ.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-q5mffni3"><div class="sl-container astro-q5mffni3"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">目次</h2><ul class="astro-cxyftcne" style="--depth: 0;"><li style="--depth: 0;" class="astro-cxyftcne"><a href="#_top" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">概要</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#用語で呼び名が変わる" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">用語で呼び名が変わる</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#まとめる解く" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">まとめる・解く</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#基本の使い方" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">基本の使い方</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#番号付け" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">番号付け</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#隣り合うカットの照合" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">隣り合うカットの照合</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#見つからない動かないとき" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">見つからない・動かないとき</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#補足" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">補足</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#関連記事" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">関連記事</span></a></li><li style="--depth: 0;" class="astro-cxyftcne"><a href="#確認情報" style="--depth: 0;" class="astro-cxyftcne"><span style="--depth: 0;" class="astro-cxyftcne">確認情報</span></a></li></ul></nav></starlight-toc><script type="module" src="/umoupen-usage-encyclopedia/_astro/TableOfContents.astro_astro_type_script_index_0_lang.Csloo1VZ.js"></script></div></div></div></aside><div class="main-pane astro-abfeecmu"><main data-pagefind-body class="astro-vdxcvpsm" lang="ja" dir="ltr"><div class="content-panel astro-oil7k7jf"><div class="sl-container astro-oil7k7jf"><nav class="page-breadcrumb" aria-label="現在位置"><a href="/umoupen-usage-encyclopedia/ja/">事典ホーム</a><span aria-hidden="true">/</span><span>絵コンテ・ページ・ブック</span></nav><h1 id="_top" data-pagefind-weight="10">シーンでカットをまとめる</h1></div></div><div class="content-panel astro-oil7k7jf"><div class="sl-container astro-oil7k7jf"><div class="sl-markdown-content"><blockquote class="article-version" data-pagefind-ignore="all">
 <p><strong>本文確認：</strong>Umoupen 0.9.56 build 568（2026-09-07）</p>
 </blockquote>
-<p class="article-lead" data-pagefind-weight="3">カットの一段上に<strong>シーン</strong>を置いて、まとまりごとに扱います。シーン単位で表示を切り替え、長さを固定し、番号を振り直せます。呼び名は<strong>用語</strong>の設定で切り替えます。</p>
+<p class="article-lead" data-pagefind-weight="3">絵コンテタイムラインで選んだカットを一つのまとまりにします。まとまりの呼び名と、カット番号の数え方は<strong>用語</strong>と<strong>番号付け</strong>で決めます。</p>
 <p class="article-search-terms" data-article-reference="search-terms" data-pagefind-weight="4" aria-hidden="true">Add Scene、New Scene、Group into Scene、Ungroup Scene、Split Scene、Rename Scene、Delete Scene、Hide Scene、Show Scene、Lock Scene Length、Scene Options、Scene Thumbnail Grid、Play Scenes、Previous Scene、Next Scene、Terminology、Numbering、Lock shot numbers、Renumber shots in current order、Accept new neighbour、Missing shot、シーン、シーンにまとめる、シーンのグループ化を解除、シーンを分割、シーン名を変更、シーンを削除、シーン設定、シーンを再生、用語、番号付け、カット番号をロック、番号を振り直す、group shots into scenes、隣接カット、シーン に まとめる、シーン の グループ 化 を 解除、シーン を 分割、シーン 名 を 変更、シーン を 削除、シーン 設定、シーン を 再生、番号 付け、カット 番号 を ロック、番号 を 振り 直す、隣接 カット</p>
 <blockquote class="article-access">
 <p><strong>場所：</strong> 絵コンテパネル（絵コンテ）→ 設定 → 用語／番号付け</p>
 </blockquote>
-<div class="sl-heading-wrapper level-h2"><h2 id="基本の使い方">基本の使い方</h2><a class="sl-anchor-link" href="#基本の使い方"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “基本の使い方”</span></a></div>
-<ol>
-<li>まとめたいカットを選び、<strong>シーンにまとめる</strong>を使います。</li>
-<li><strong>シーン名を変更</strong>で名前を付けます。</li>
-<li>まとまりを解くときは<strong>シーンのグループ化を解除</strong>を使います。</li>
-</ol>
-<div class="sl-heading-wrapper level-h2"><h2 id="主な項目">主な項目</h2><a class="sl-anchor-link" href="#主な項目"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “主な項目”</span></a></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>項目</th><th>できること</th></tr></thead><tbody><tr><td><strong>シーンを追加／新規シーン</strong></td><td>新しいシーンを作る</td></tr><tr><td><strong>シーンにまとめる</strong></td><td>選んだカットを一つのシーンにする</td></tr><tr><td><strong>シーンのグループ化を解除</strong></td><td>シーンを解いて個々のカットへ戻す</td></tr><tr><td><strong>シーンを分割</strong></td><td>シーンを二つに分ける</td></tr><tr><td><strong>シーン名を変更／シーン名</strong></td><td>シーンに名前を付ける</td></tr><tr><td><strong>シーンを削除</strong></td><td>シーンを取り除く</td></tr><tr><td><strong>シーンを非表示／シーンを表示</strong></td><td>シーンの表示を切り替える</td></tr><tr><td><strong>前のシーン／次のシーン</strong></td><td>シーン単位で移動する</td></tr><tr><td><strong>シーンを再生</strong></td><td>シーン単位で再生する</td></tr><tr><td><strong>シーンの長さをロック</strong></td><td>シーンの尺を変えないようにする</td></tr><tr><td><strong>新規シーンの長さ</strong></td><td>新しく作るシーンの既定の長さ</td></tr><tr><td><strong>シーン設定</strong></td><td>そのシーンの設定をまとめて開く</td></tr><tr><td><strong>シーンサムネイルのグリッド</strong></td><td>シーンのサムネイルを格子で並べる</td></tr></tbody></table>
-<p>カット側にも同じ組み合わせがあり、<strong>カットを追加</strong>、<strong>カットを分割</strong>、<strong>カット名を変更</strong>、<strong>カットを削除</strong>、<strong>カットを非表示</strong>、<strong>カットを表示</strong>、<strong>前のカット</strong>、<strong>次のカット</strong>、<strong>カットを再生</strong>、<strong>カットの長さをロック</strong>、<strong>新規カットの長さ</strong>、<strong>カット設定</strong>、<strong>カットサムネイルのグリッド</strong>を使います。</p>
-<div class="sl-heading-wrapper level-h2"><h2 id="用語の切り替え">用語の切り替え</h2><a class="sl-anchor-link" href="#用語の切り替え"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “用語の切り替え”</span></a></div>
-<p><strong>用語</strong>は、絵コンテパネルの設定（歯車）にあります。制作の種類に合わせて3つのプリセットから選び、階層の呼び名がまとめて変わります。</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="用語で呼び名が変わる">用語で呼び名が変わる</h2><a class="sl-anchor-link" href="#用語で呼び名が変わる"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “用語で呼び名が変わる”</span></a></div>
+<p><strong>用語</strong>は、絵コンテパネルの設定（歯車）にあります。制作の種類に合わせて3つのプリセットから選ぶと、階層の呼び名がまとめて変わります。</p>
 
 
 
@@ -172,8 +102,42 @@
 
 
 <table><thead><tr><th>選択肢</th><th>想定する用途</th></tr></thead><tbody><tr><td><strong>実写</strong></td><td>実写作品の呼び分け</td></tr><tr><td><strong>アニメーション</strong></td><td>アニメーション作品の呼び分け</td></tr><tr><td><strong>日本語</strong></td><td>日本語の制作現場の呼び分け</td></tr></tbody></table>
-<p>アプリの組込み翻訳は、3階層の呼び名を3通りの組み合わせで持っています。プリセットはこのいずれかを選ぶものと考えられますが、どのプリセットがどの組み合わせになるかは未確認です。組み合わせの一覧はこの記事末尾の組込み翻訳に載せています。</p>
+<p>階層は3段で、上段がまとまり、中段が絵コンテタイムラインに並ぶ単位、下段がコマです。<strong>実写と日本語は日本語表示が同じ</strong>になり、どちらも上段が<strong>シーン</strong>、中段が<strong>カット</strong>です。アニメーションだけ上段が<strong>シーケンス</strong>、中段が<strong>シーン</strong>になります。</p>
+<p><strong>呼び名が変わるだけで、操作の中身は同じです。</strong> 中段の追加・分割・名前の変更・削除・表示の切り替え・長さのロック・設定・サムネイルのグリッド・前後の移動・再生は、用語を変えても同じ操作で、<a href="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/add-delete-split-shots/">カットを追加・削除・分割する</a>と<a href="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/shot-length-and-range/">カットの長さと再生範囲</a>で説明しているものです。この記事では扱いません。</p>
 <p>この事典の本文は、アプリの組込み日本語表示にそろえて中段を「カット」と書いています。</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="まとめる解く">まとめる・解く</h2><a class="sl-anchor-link" href="#まとめる解く"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “まとめる・解く”</span></a></div>
+<p>まとまりを作る操作は、上段の呼び名で表示されます。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>用語</th><th>まとめる</th><th>解く</th></tr></thead><tbody><tr><td>実写／日本語</td><td><strong>シーンにまとめる</strong></td><td><strong>シーンのグループ化を解除</strong></td></tr><tr><td>アニメーション</td><td><strong>シーケンスにグループ化</strong></td><td><strong>シーケンス解除</strong></td></tr></tbody></table>
+<p>まとめたあとの名前は<strong>シーン名を変更</strong>（アニメーションでは<strong>シーケンス名を変更</strong>）で付けます。</p>
+<p><strong>まとまりを対象にした操作は、まとめる・解く・名前を変えるの3つだけです。</strong> 長さのロックや再生といった操作は中段のカットに対するもので、まとまりには用意されていません。</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="基本の使い方">基本の使い方</h2><a class="sl-anchor-link" href="#基本の使い方"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “基本の使い方”</span></a></div>
+<ol>
+<li>絵コンテタイムラインで、まとめたいカットを選びます。</li>
+<li>右クリックして<strong>シーンにまとめる</strong>を選びます。</li>
+<li><strong>シーン名を変更</strong>で名前を付けます。</li>
+<li>まとまりを解くときは<strong>シーンのグループ化を解除</strong>を選びます。</li>
+</ol>
+<p><strong>成功すると：</strong> 選んだカットが一つのまとまりとして扱われ、番号付けを<strong>シーン</strong>にしているとカット番号がまとまりごとに振り直されます。</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="番号付け">番号付け</h2><a class="sl-anchor-link" href="#番号付け"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “番号付け”</span></a></div>
 <p><strong>番号付け</strong>は<strong>用語</strong>のすぐ下にあり、カット番号をどの単位で数えるかを選びます。</p>
 
@@ -215,17 +179,18 @@
 <table><thead><tr><th>項目</th><th>できること</th></tr></thead><tbody><tr><td><strong>カット番号をロック</strong></td><td>並べ替えても番号を変えないようにする</td></tr><tr><td><strong>現在の順序でカット番号を振り直す</strong></td><td>今の並び順に合わせて番号を付け直す</td></tr></tbody></table>
 <p>範囲を選んで振り直すときは「選択した範囲の既存カット番号を振り直します。元に戻すと以前の番号に戻ります。」と示されます。シーンごとに振り直す方式では「S1-C001、S2-C001… シーンごとに番号を振り直します。元に戻すと以前の番号に戻ります。グループ化されていないカットはS0になります。」となり、<strong>どのシーンにも属さないカットは S0 になります</strong>。</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="隣り合うカットの照合">隣り合うカットの照合</h2><a class="sl-anchor-link" href="#隣り合うカットの照合"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “隣り合うカットの照合”</span></a></div>
-<p>シーンやカットを並べ替えると、隣接関係が想定と変わることがあります。そのときは<strong>想定される隣接カット</strong>と<strong>現在の隣接カット</strong>が示され、<strong>新しい隣接カットを承認</strong>で今の並びを正とします。対象のカットが見つからない場合は<strong>カットが見つかりません</strong>と表示されます。</p>
+<p>まとまりやカットを並べ替えると、隣接関係が想定と変わることがあります。そのときは<strong>想定される隣接カット</strong>と<strong>現在の隣接カット</strong>が示され、<strong>新しい隣接カットを承認</strong>で今の並びを正とします。対象のカットが見つからない場合は<strong>カットが見つかりません</strong>と表示されます。</p>
 <div class="sl-heading-wrapper level-h2"><h2 class="article-faq-heading" id="見つからない動かないとき">見つからない・動かないとき</h2><a class="sl-anchor-link" href="#見つからない動かないとき"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “見つからない・動かないとき”</span></a></div>
 <ul>
+<li><strong>右クリックしても「シーンにまとめる」が出ない</strong>：カットを1つだけ右クリックしたときのメニューには出ません。まとめたいカットを選んでから右クリックします。</li>
 <li><strong>番号が変わってしまう</strong>：カット番号をロックを使います。振り直しは元に戻すで以前の番号へ戻せます。</li>
-<li><strong>S0 のカットがある</strong>：どのシーンにも属していないカットです。シーンへの所属を確認します。</li>
+<li><strong>S0 のカットがある</strong>：どのまとまりにも属していないカットです。まとめると通常の番号になります。</li>
 </ul>
 <div class="sl-heading-wrapper level-h2"><h2 id="補足">補足</h2><a class="sl-anchor-link" href="#補足"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “補足”</span></a></div>
 <ul>
 <li><strong>用語</strong>と<strong>番号付け</strong>が絵コンテパネルの設定（歯車）にあること、選択肢の内容、<strong>カット番号をロック</strong>と<strong>現在の順序でカット番号を振り直す</strong>が同じ設定に並ぶことは build 568 の実画面で確認しました。</li>
-<li>絵コンテタイムラインでカットを右クリックすると、カット名を変更／カットを非表示／色ラベル／トランジションを追加／カットを分割／フラグを追加／カットをコピー／カットを貼り付け／前に挿入／後に挿入／カットをUmouファイルとして書き出し／カットを削除が並びます。<strong>このメニューに「シーンにまとめる」はありません</strong>——シーンにまとめる操作の入口は未確認です。</li>
-<li><strong>シーンの各操作</strong>（追加・分割・名前の変更・削除・表示切替・長さのロック・シーン設定・サムネイルのグリッド）と、既存の<strong>シーケンスにグループ化</strong>との使い分けは、実装と組込み翻訳から確認したもので、画面上の所在と操作結果は未確認です。</li>
+<li>カットを1つだけ右クリックしたメニューには、カット名を変更／カットを非表示／色ラベル／トランジションを追加／カットを分割／フラグを追加／カットをコピー／カットを貼り付け／前に挿入／後に挿入／カットをUmouファイルとして書き出し／カットを削除が並び、まとめる操作は含まれないことを実画面で確認しました。<strong>複数のカットを選んだときにまとめる操作が出るかは未確認です。</strong></li>
+<li>用語のどのプリセットがどの階層表記になるか、および中段の操作が3つの呼び名で共通であることは、実行ファイル内の並びと、まとまり側にだけ追加・分割・削除などが存在しないことから読み取ったものです。画面で用語を切り替えて確かめてはいません。</li>
 </ul>
 <div class="sl-heading-wrapper level-h2"><h2 class="article-related-heading" data-pagefind-ignore="all" id="関連記事">関連記事</h2><a class="sl-anchor-link" href="#関連記事"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “関連記事”</span></a></div>
 <ul class="article-related-list" data-pagefind-ignore="all">
@@ -239,8 +204,8 @@
 <div class="sl-heading-wrapper level-h2"><h2 data-article-record="verification" data-pagefind-ignore="all" class="article-record-heading" id="確認情報">確認情報</h2><a class="sl-anchor-link" href="#確認情報"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “確認情報”</span></a></div>
 <ul data-article-record="verification" data-pagefind-ignore="all" class="article-verification-record">
 <li><strong>利用者の実画面で確認</strong>：利用者の実画面で、絵コンテパネルの設定に「用語」と「番号付け」が並ぶことを確認した。用語の選択肢は実写／アニメーション／日本語の3つ、番号付けの選択肢はエピソード／シーンの2つで、同じ設定に「カット番号をロック」（この時点では選択不可）と「現在の順序でカット番号を振り直す」がある。絵コンテタイムラインのカットの右クリックメニューは、カット名を変更／カットを非表示／色ラベル／トランジションを追加／カットを分割／フラグを追加／カットをコピー／カットを貼り付け／前に挿入／後に挿入／カットをUmouファイルとして書き出し／カットを削除で、「シーンにまとめる」は含まれない。</li>
-<li><strong>現行実装から確認</strong>：build 563→568の差分で、シーン階層の表示名一式を確認した。シーンを追加、新規シーン、シーンにまとめる、シーンのグループ化を解除、シーンを分割、シーン名を変更、シーンを削除、シーンを非表示、シーンを表示、前のシーン、次のシーン、シーンを再生、シーンの長さをロック、新規シーンの長さ、シーン設定、シーンサムネイルのグリッドがあり、カット側にも同じ組み合わせがある。用語の選択肢はScene / Shot / Panel、Scene / Cut / Panel、Sequence / Scene / Panelの3種で、ShotとCutはいずれも日本語表示が「カット」になる。番号付けにカット番号をロックと現在の順序でカット番号を振り直すがあり、説明文は「選択した範囲の既存カット番号を振り直します。元に戻すと以前の番号に戻ります。」および「S1-C001、S2-C001… シーンごとに番号を振り直します。元に戻すと以前の番号に戻ります。グループ化されていないカットはS0になります。」である。隣接カットの照合に新しい隣接カットを承認、現在の隣接カット、想定される隣接カット、カットが見つかりませんがある。画面上の入口、設定の所在、用語の既定値、既存のシーケンスにグループ化との使い分け、操作結果は未確認である。</li>
-<li><strong>未確認</strong>：シーンにまとめる操作の入口。シーンの追加・分割・名前の変更・削除・表示切替・長さのロック・シーン設定・サムネイルのグリッドの画面上の所在と操作結果。用語の各プリセットがどの階層表記になるか。既存のシーケンスにグループ化との使い分け。</li>
+<li><strong>現行実装から確認</strong>：build 563→568の差分と実行ファイルの文字列から、階層の中段を指す3つの呼び名（Shot／Scene／Cut）が、追加・新規・分割・名前の変更・削除・非表示・表示・再生・長さのロック・設定・サムネイルのグリッド・前後の移動の13種すべてを同じ形で持つ一方、Sequenceはそのいずれも持たないことを確認した。逆にGroup intoとUngroupはSceneとSequenceにだけあり、ShotとCutには無い。したがって中段の操作は用語プリセットによる呼び分けであり、まとまりを対象とする操作はまとめる・解く・名前の変更に限られる。Terminologyの直後に3通りの階層表記が並ぶ順序から、実写・アニメーション・日本語がそれぞれどの表記に対応するかを読み取った。番号付けの説明文は、振り直しが元に戻せること、どのまとまりにも属さないカットがS0になることを示す。</li>
+<li><strong>未確認</strong>：複数のカットを選んだときにまとめる操作が右クリックメニューへ出るか。用語を画面で切り替えたときに呼び名が実際にどう変わるか。まとめたあとのまとまりが絵コンテタイムラインでどう表示されるか。「カット番号をロック」が選択不可だった条件。</li>
 <li class="article-editorial-record" data-article-record="evidence-id" data-pagefind-ignore="all">証拠記録：F-20260907-004</li>
 </ul>
 <p data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record">変更履歴</p>
@@ -274,7 +239,12 @@
 
 
 
-<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>実画面で確認し、用語の選択肢を階層表記から実写／アニメーション／日本語の3プリセットへ訂正。番号付けの選択肢と設定の所在、カットの右クリックメニューの内容を追記</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>既存記事に合わせて基本手順・主な項目の書式へ統一。確認範囲は補足と確認情報へ集約</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>確認範囲を明示して公開。日英記事と索引を追加</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>初版作成。build 563 → 568 の差分で追加されたシーン階層・用語・番号付けを収録</td></tr></tbody></table>
+
+
+
+
+
+<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>構成を訂正。シーンを対象とする独立した操作群があるという説明を取り下げ、追加・分割・削除などは用語を変えても同じ中段の操作であること、まとまり専用の操作はまとめる・解く・名前の変更だけであることへ改めた</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>実画面で確認し、用語の選択肢を階層表記から実写／アニメーション／日本語の3プリセットへ訂正。番号付けの選択肢と設定の所在、カットの右クリックメニューの内容を追記</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>既存記事に合わせて基本手順・主な項目の書式へ統一。確認範囲は補足と確認情報へ集約</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>確認範囲を明示して公開。日英記事と索引を追加</td></tr><tr><td>2026-09-07</td><td>Umoupen 0.9.56 build 568</td><td>初版作成。build 563 → 568 の差分で追加されたシーン階層・用語・番号付けを収録</td></tr></tbody></table>
 <p data-pagefind-ignore="all" class="article-html-reference" data-article-reference="name-mapping">組込み翻訳</p>
 
 
@@ -305,4 +275,60 @@
 
 
 
-<table class="article-html-reference" data-article-reference="name-mapping"><thead><tr data-pagefind-ignore="all"><th>日本語表示</th><th>組込み英語キー</th></tr></thead><tbody><tr><td>シーケンスにグループ化</td><td>Group into Sequence</td></tr><tr><td>シーン / カット / パネル</td><td>Scene / Cut / Panel</td></tr><tr><td>シーン / カット / パネル</td><td>Scene / Shot / Panel</td></tr><tr><td>シーケンス / シーン / パネル</td><td>Sequence / Scene / Panel</td></tr><tr><td>カット</td><td>Shot</td></tr></tbody></table></div><aside class="site-scope-note" aria-label="確認範囲" data-pagefind-ignore="all"><strong>確認範囲</strong>公開対象：Umoupen 0.9.50 build 534／macOS arm64（2026-08-25確認）。本文を確認したbuildは各記事の冒頭に記載しています。Windows版はショートカット表記を掲載していますが、画面と操作の包括的な実機確認は未実施です。<a class="site-feedback-link" href="https://github.com/lunafuse/umoupen-usage-encyclopedia/issues/new?title=%5B%E4%BA%8B%E5%85%B8%5D+%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%A7%E3%82%AB%E3%83%83%E3%83%88%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%82%8B&amp;body=%E3%83%9A%E3%83%BC%E3%82%B8%EF%BC%9A%2Fumoupen-usage-encyclopedia%2Fja%2Farticles%2Fstoryboard-pages%2Fscenes%2F%0A%0A%E8%AA%A4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E8%AA%AC%E6%98%8E%EF%BC%9A%0A%0A%E6%AD%A3%E3%81%97%E3%81%84%E3%81%A8%E6%80%9D%E3%81%86%E8%AA%AC%E6%98%8E%EF%BC%9A" target="_blank" rel="noreferrer">事典の誤りを報告</a></aside><footer class="sl-flex astro-xhxjzfa7"><div class="meta sl-flex astro-xhxjzfa7"></div><div class="pagination-links print:hidden astro-jgq3vlii" dir="ltr"><a href="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/shot-transitions/" rel="prev" class="astro-jgq3vlii"><svg aria-hidden="true" class="astro-jgq3vlii astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-jgq3vlii">前へ<br class="astro-jgq3vlii"><span class="link-title astro-jgq3vlii">カット間のトランジション</span></span></a><a href="/umoupen-usage-encyclopedia/ja/articles/stage-camera-3d/pan-zoom-rotate-stage/" rel="next" class="astro-jgq3vlii"><svg aria-hidden="true" class="astro-jgq3vlii astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-jgq3vlii">次へ<br class="astro-jgq3vlii"><span class="link-title astro-jgq3vlii">ステージを移動・拡大・回転する</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="article-html-reference" data-article-reference="name-mapping"><thead><tr data-pagefind-ignore="all"><th>日本語表示</th><th>組込み英語キー</th></tr></thead><tbody><tr><td>シーンにまとめる</td><td>Group into Scene</td></tr><tr><td>シーンのグループ化を解除</td><td>Ungroup Scene</td></tr><tr><td>シーケンスにグループ化</td><td>Group into Sequence</td></tr><tr><td>シーケンス解除</td><td>Ungroup Sequence</td></tr><tr><td>シーン名を変更</td><td>Rename Scene</td></tr><tr><td>シーケンス名を変更</td><td>Rename Sequence</td></tr><tr><td>実写</td><td>Live Action</td></tr><tr><td>アニメーション</td><td>Animation</td></tr><tr><td>日本語</td><td>Japanese</td></tr><tr><td>エピソード</td><td>Episode</td></tr><tr><td>シーン</td><td>Scene</td></tr><tr><td>用語</td><td>Terminology</td></tr><tr><td>番号付け</td><td>Numbering</td></tr><tr><td>カット番号をロック</td><td>Lock shot numbers</td></tr><tr><td>現在の順序でカット番号を振り直す</td><td>Renumber shots in current order</td></tr><tr><td>新しい隣接カットを承認</td><td>Accept new neighbour</td></tr><tr><td>想定される隣接カット</td><td>Expected neighbour</td></tr><tr><td>現在の隣接カット</td><td>Current neighbour</td></tr><tr><td>カットが見つかりません</td><td>Missing shot</td></tr></tbody></table></div><aside class="site-scope-note" aria-label="確認範囲" data-pagefind-ignore="all"><strong>確認範囲</strong>公開対象：Umoupen 0.9.50 build 534／macOS arm64（2026-08-25確認）。本文を確認したbuildは各記事の冒頭に記載しています。Windows版はショートカット表記を掲載していますが、画面と操作の包括的な実機確認は未実施です。<a class="site-feedback-link" href="https://github.com/lunafuse/umoupen-usage-encyclopedia/issues/new?title=%5B%E4%BA%8B%E5%85%B8%5D+%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%A7%E3%82%AB%E3%83%83%E3%83%88%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%82%8B&amp;body=%E3%83%9A%E3%83%BC%E3%82%B8%EF%BC%9A%2Fumoupen-usage-encyclopedia%2Fja%2Farticles%2Fstoryboard-pages%2Fscenes%2F%0A%0A%E8%AA%A4%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E8%AA%AC%E6%98%8E%EF%BC%9A%0A%0A%E6%AD%A3%E3%81%97%E3%81%84%E3%81%A8%E6%80%9D%E3%81%86%E8%AA%AC%E6%98%8E%EF%BC%9A" target="_blank" rel="noreferrer">事典の誤りを報告</a></aside><footer class="sl-flex astro-xhxjzfa7"><div class="meta sl-flex astro-xhxjzfa7"></div><div class="pagination-links print:hidden astro-jgq3vlii" dir="ltr"><a href="/umoupen-usage-encyclopedia/ja/articles/storyboard-pages/shot-transitions/" rel="prev" class="astro-jgq3vlii"><svg aria-hidden="true" class="astro-jgq3vlii astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-jgq3vlii">前へ<br class="astro-jgq3vlii"><span class="link-title astro-jgq3vlii">カット間のトランジション</span></span></a><a href="/umoupen-usage-encyclopedia/ja/articles/stage-camera-3d/pan-zoom-rotate-stage/" rel="next" class="astro-jgq3vlii"><svg aria-hidden="true" class="astro-jgq3vlii astro-n5k4ipy7" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-jgq3vlii">次へ<br class="astro-jgq3vlii"><span class="link-title astro-jgq3vlii">ステージを移動・拡大・回転する</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>
