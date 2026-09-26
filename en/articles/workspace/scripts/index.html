@@ -100,7 +100,7 @@
 
 
 
-<table><thead><tr><th>What you want to do</th><th>Operation to use</th></tr></thead><tbody><tr><td>Write a new storyboard script</td><td><strong>New Storyboard Script</strong></td></tr><tr><td>Open an existing script document</td><td><strong>Import Text / Markdown</strong></td></tr><tr><td>Automate project operations with Lua</td><td>Open a script from Gallery or the project</td></tr></tbody></table>
+<table><thead><tr><th>What you want to do</th><th>Operation to use</th></tr></thead><tbody><tr><td>Write a new storyboard script</td><td><strong>New Storyboard Script</strong></td></tr><tr><td>Open an existing script document</td><td><strong>Import Text / Markdown</strong></td></tr><tr><td>Automate project operations with Lua</td><td>Open a script from the Gallery or the project</td></tr></tbody></table>
 <div class="sl-heading-wrapper level-h2"><h2 id="絵コンテ原稿を編集する">Edit a storyboard script</h2><a class="sl-anchor-link" href="#絵コンテ原稿を編集する"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Edit a storyboard script”</span></a></div>
 <ol>
 <li>Open <strong>Scripts</strong> from Panels.</li>
@@ -111,8 +111,8 @@
 <div class="sl-heading-wrapper level-h2"><h2 id="lua自動化を実行する">Run Lua automation</h2><a class="sl-anchor-link" href="#lua自動化を実行する"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Run Lua automation”</span></a></div>
 <ol>
 <li>Save the project and create a file snapshot before running anything.</li>
-<li>Open a script from Gallery or the project.</li>
-<li>Read the source and identify the Layers, Frames, or files it can change.</li>
+<li>Open a script from the Gallery or the project.</li>
+<li>Read the source and identify the layers, frames, or files it can change.</li>
 <li>Use <code dir="auto">Lint</code> to check its syntax and APIs.</li>
 <li>Run it with <code dir="auto">Run</code>.</li>
 <li>Inspect the changed scope. If the result is not intended, undo before saving or restore the snapshot.</li>
@@ -143,7 +143,7 @@
 
 
 
-<table><thead><tr><th>Message or symptom</th><th>Check this first</th></tr></thead><tbody><tr><td>“No Scripts Attached”</td><td>Open a script from Gallery or create a storyboard script.</td></tr><tr><td><code dir="auto">Lint</code> reports an API error</td><td>Remove operations that are reported as sandboxed or unavailable.</td></tr><tr><td>Running it causes no visible change</td><td>Check the target Layer, Frame, selection, and other prerequisites expected by the script.</td></tr><tr><td>Running it makes an unintended change</td><td>Do not save; undo or restore the snapshot created beforehand.</td></tr></tbody></table>
+<table><thead><tr><th>Message or symptom</th><th>Check this first</th></tr></thead><tbody><tr><td>“No Scripts Attached”</td><td>Open a script from the Gallery or create a storyboard script.</td></tr><tr><td><code dir="auto">Lint</code> reports an API error</td><td>Remove operations that are reported as sandboxed or unavailable.</td></tr><tr><td>Running it causes no visible change</td><td>Check the target layer, frame, selection, and other prerequisites expected by the script.</td></tr><tr><td>Running it makes an unintended change</td><td>Do not save; undo or restore the snapshot created beforehand.</td></tr></tbody></table>
 <div class="sl-heading-wrapper level-h2"><h2 id="主な操作">Main controls</h2><a class="sl-anchor-link" href="#主な操作"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Main controls”</span></a></div>
 
 

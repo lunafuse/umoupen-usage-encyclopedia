@@ -102,7 +102,7 @@
 <li>再生して、手前と奥の動きの差を確認します。</li>
 </ol>
 <p><strong>深度を変えると：</strong> カメラを動かしたときのレイヤーごとの移動量が変わります。深度プレーンの前後関係も変わるため、奥のレイヤーを手前へ通すような重なりの入れ替えも、同じレイヤーに絵を置いたまま作れます。</p>
-<p>レイヤーの親子関係を変えると深度のトゥイーンキーは消えます。実行前に<code dir="auto">親の変更により深度のトゥイーンキーが消去されました</code>の表示を確認します。</p>
+<p>レイヤーの親子関係を変えると深度のトゥイーンキーは消え、<code dir="auto">親の変更により深度のトゥイーンキーが消去されました</code>と表示されます。</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="主な項目">主な項目</h2><a class="sl-anchor-link" href="#主な項目"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “主な項目”</span></a></div>
 
 
@@ -239,7 +239,12 @@
 
 
 
-<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-09-20</td><td>Umoupen 0.9.57 build 596</td><td>「その場で合成」（<code dir="auto">Composite in Place</code>）を現行の表示名「カメラ表示を使用」へ、<code dir="auto">Regular Folder</code>を右クリックの「カメラフォルダー」の切り替えへ、「カメラフォルダーへ変換」を現行の表示「カメラフォルダーに変換」へ改めた。<code dir="auto">Composite in Place</code>はbuild 596の実行ファイルに無く、<code dir="auto">Regular Folder</code>は取り消し用の名前でメニューには出ない</td></tr><tr><td>2026-09-06</td><td>Umoupen 0.9.55 build 563</td><td>build 547で入った、カメラとレイヤーの深度による奥行き表現を追加</td></tr><tr><td>2026-09-03</td><td>Umoupen 0.9.49 build 530</td><td>表記をアプリの組込み日本語表示へ統一（Stage→ステージ）</td></tr><tr><td>2026-09-02</td><td>Umoupen 0.9.49 build 530</td><td>子レイヤー限定のカメラ合成と直接編集を分け、選択条件、オンライン制約、プレビュー異常時の対処を追加</td></tr><tr><td>2026-08-26</td><td>Umoupen 0.9.50 build 534</td><td>関連記事を追加し、検索と確認時点の派生表示に対応</td></tr><tr><td>2026-08-25</td><td>Umoupen 0.9.50 build 534</td><td>現行buildの組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>フォルダー右クリックのカメラフォルダー変換と表示切替を追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>説明文と記事名を日本語中心に整理し、現行画面の英語表示名は操作表記と検索語に維持</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>画面上の場所を冒頭へ追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>初版作成</td></tr></tbody></table>
+
+
+
+
+
+<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-09-26</td><td>Umoupen 0.9.59 build 611</td><td>深度のトゥイーンキーが消えたときの表示を、実行前に確認する書き方から、実行後に表示される書き方へ訂正（英語版の校閲で見つかった日本語正本の誤り）</td></tr><tr><td>2026-09-20</td><td>Umoupen 0.9.57 build 596</td><td>「その場で合成」（<code dir="auto">Composite in Place</code>）を現行の表示名「カメラ表示を使用」へ、<code dir="auto">Regular Folder</code>を右クリックの「カメラフォルダー」の切り替えへ、「カメラフォルダーへ変換」を現行の表示「カメラフォルダーに変換」へ改めた。<code dir="auto">Composite in Place</code>はbuild 596の実行ファイルに無く、<code dir="auto">Regular Folder</code>は取り消し用の名前でメニューには出ない</td></tr><tr><td>2026-09-06</td><td>Umoupen 0.9.55 build 563</td><td>build 547で入った、カメラとレイヤーの深度による奥行き表現を追加</td></tr><tr><td>2026-09-03</td><td>Umoupen 0.9.49 build 530</td><td>表記をアプリの組込み日本語表示へ統一（Stage→ステージ）</td></tr><tr><td>2026-09-02</td><td>Umoupen 0.9.49 build 530</td><td>子レイヤー限定のカメラ合成と直接編集を分け、選択条件、オンライン制約、プレビュー異常時の対処を追加</td></tr><tr><td>2026-08-26</td><td>Umoupen 0.9.50 build 534</td><td>関連記事を追加し、検索と確認時点の派生表示に対応</td></tr><tr><td>2026-08-25</td><td>Umoupen 0.9.50 build 534</td><td>現行buildの組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>フォルダー右クリックのカメラフォルダー変換と表示切替を追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>説明文と記事名を日本語中心に整理し、現行画面の英語表示名は操作表記と検索語に維持</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>画面上の場所を冒頭へ追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>初版作成</td></tr></tbody></table>
 <p data-pagefind-ignore="all" class="article-html-reference" data-article-reference="name-mapping">組込み翻訳</p>
 
 
