@@ -118,7 +118,7 @@
 
 
 <table><thead><tr><th>項目</th><th>働き</th></tr></thead><tbody><tr><td><strong>最近のファイル</strong></td><td>最近開いたファイル</td></tr><tr><td><strong>前回のファイルを復元</strong></td><td>前回開いていたファイルの再表示</td></tr><tr><td><strong>保存せずに閉じる</strong></td><td>未保存変更を保存せず閉じる</td></tr><tr><td><strong>新規ファイルを破棄</strong></td><td>一度も保存していない新規ファイルを破棄</td></tr><tr><td><strong>保存して閉じる</strong></td><td>保存してから対象タブを閉じる</td></tr></tbody></table>
-<p>未保存のタブを閉じると、この確認が表示されます。残したい場合は<strong>保存して閉じる</strong>、不要な変更だけを破棄する場合は対象タブ名を確認して<strong>保存せずに閉じる</strong>を選びます。</p>
+<p>未保存の変更があるタブを閉じると、保存するかどうかの確認が表示されます。残したい場合は<strong>保存して閉じる</strong>、不要な変更だけを破棄する場合は対象タブ名を確認して<strong>保存せずに閉じる</strong>を選びます。</p>
 <p>最後に保存した状態へ戻すときは<strong>ファイルを元に戻す</strong>を選び、<code dir="auto">最後の保存状態に戻す</code>を確認します。未保存変更は破棄されます。</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="タブの鉛筆マーク">タブの鉛筆マーク</h2><a class="sl-anchor-link" href="#タブの鉛筆マーク"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “タブの鉛筆マーク”</span></a></div>
 <p>保存していない変更があるタブには、タブ名の右に鉛筆のマークが付きます。色で保存先の有無が分かります。</p>
@@ -206,7 +206,12 @@
 
 
 
-<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-10-10</td><td>—</td><td>画像と同文のキャプションを整理、機能の説明を画像より先に配置（仕様の再確認なし）</td></tr><tr><td>2026-10-07</td><td>Umoupen 0.9.59 build 628</td><td>カーソルのない実画面切り抜きへ差し替え、表示範囲に合わせて説明を更新</td></tr><tr><td>2026-10-05</td><td>Umoupen 0.9.59 build 628</td><td>実画面の切り抜きと説明を追加（表示範囲のみ確認）</td></tr><tr><td>2026-09-19</td><td>Umoupen 0.9.57 build 591</td><td>タブの鉛筆マークと、青と赤の違いを追加</td></tr><tr><td>2026-09-03</td><td>Umoupen 0.9.50 build 534</td><td>表記をアプリの組込み日本語表示へ統一（Tab→タブ）</td></tr><tr><td>2026-08-26</td><td>Umoupen 0.9.50 build 534</td><td>関連記事を追加し、検索と確認時点の派生表示に対応</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>未保存Tabを閉じる確認の3操作を追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>説明文と記事名を日本語中心に整理し、現行画面の英語表示名は操作表記と検索語に維持</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>画面上の場所と現在のショートカットを冒頭へ追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>初版作成</td></tr></tbody></table>
+
+
+
+
+
+<table data-article-record="change-history" data-pagefind-ignore="all" class="article-editorial-record"><thead><tr><th>日付</th><th>対象バージョン</th><th>変更内容</th></tr></thead><tbody><tr><td>2026-10-11</td><td>—</td><td>操作対象と結果が伝わる表現に改め、重複する説明を整理。英語版も同期（仕様の再確認なし）</td></tr><tr><td>2026-10-10</td><td>—</td><td>画像と同文のキャプションを整理、機能の説明を画像より先に配置（仕様の再確認なし）</td></tr><tr><td>2026-10-07</td><td>Umoupen 0.9.59 build 628</td><td>カーソルのない実画面切り抜きへ差し替え、表示範囲に合わせて説明を更新</td></tr><tr><td>2026-10-05</td><td>Umoupen 0.9.59 build 628</td><td>実画面の切り抜きと説明を追加（表示範囲のみ確認）</td></tr><tr><td>2026-09-19</td><td>Umoupen 0.9.57 build 591</td><td>タブの鉛筆マークと、青と赤の違いを追加</td></tr><tr><td>2026-09-03</td><td>Umoupen 0.9.50 build 534</td><td>表記をアプリの組込み日本語表示へ統一（Tab→タブ）</td></tr><tr><td>2026-08-26</td><td>Umoupen 0.9.50 build 534</td><td>関連記事を追加し、検索と確認時点の派生表示に対応</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>組込み日本語翻訳表に登録された表示名を本文へ反映</td></tr><tr><td>2026-08-24</td><td>Umoupen 0.9.49 build 530</td><td>未保存Tabを閉じる確認の3操作を追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>説明文と記事名を日本語中心に整理し、現行画面の英語表示名は操作表記と検索語に維持</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>画面上の場所と現在のショートカットを冒頭へ追加</td></tr><tr><td>2026-08-23</td><td>Umoupen 0.9.49 build 530</td><td>初版作成</td></tr></tbody></table>
 <p data-pagefind-ignore="all" class="article-html-reference" data-article-reference="name-mapping">組込み翻訳</p>
 
 
